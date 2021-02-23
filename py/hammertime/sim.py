@@ -21,8 +21,8 @@ import itertools
 import functools
 from collections import namedtuple
 
-import pyramses
-from hammertime import fliptable
+import hammertime.py.pyramses
+from hammertime.py.hammertime import fliptable
 
 class PageBitFlip(namedtuple('PageBitFlip', ['byte_offset', 'mask'])):
     """Represents a byte with one or more flipped bits at a particular offset within a page"""

@@ -22,7 +22,7 @@ import re
 
 from collections import namedtuple
 
-from pyramses import DRAMAddr
+from hammertime.py.pyramses import DRAMAddr
 
 
 ADDR_FMT = r'\((\w+)\s+(\w+)\s+(\w+)\s+(\w+)\s+(\w+)\s*(\w+)?\)'
